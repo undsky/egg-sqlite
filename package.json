@@ -1,7 +1,7 @@
 {
-  "name": "egg-sqlite",
-  "version": "3.0.0",
-  "description": "",
+  "name": "egg-database-sqlite",
+  "version": "1.0.0",
+  "description": "egg plugin for sqlite",
   "eggPlugin": {
     "name": "sqlite"
   },
@@ -13,7 +13,6 @@
     "sqlite3"
   ],
   "dependencies": {
-    "bytenode": "^1.3.4",
     "better-sqlite3": "^7.4.5"
   },
   "devDependencies": {
@@ -49,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-sqlite.git"
+    "url": "git+https://github.com/undsky/egg-sqlite3.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/undsky/egg-sqlite3/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-sqlite#readme",
-  "author": "",
+  "homepage": "https://github.com/undsky/egg-sqlite3#readme",
+  "author": "姜彦汐 https://www.undsky.com",
   "license": "MIT"
 }

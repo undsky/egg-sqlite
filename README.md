@@ -1,19 +1,12 @@
-<!--
- * @Author: 姜彦汐
- * @Date: 2021-04-21 16:25:34
- * @LastEditors: 姜彦汐
- * @LastEditTime: 2021-04-22 10:10:09
- * @Description: 
- * Contact: jiangyanxi@live.com
- * @FilePath: /egg-sqlite/README.md
--->
 # egg-sqlite
+
+> egg plugin for sqlite
 ## 安装
 
 ```bash
-$ npm i egg-sqlite --save
+$ npm i egg-database-sqlite --save
 # or
-$ yarn add egg-sqlite
+$ yarn add egg-database-sqlite
 ```
 
 ## 依赖说明
@@ -43,9 +36,15 @@ exports.sqlite = {
 ```js
 // {app_root}/config/config.default.js
 config.sqlite = {
-
+      path: ':memory:',
+      options: null
 };
 ```
+
+## 示例
+
+## [点击查看更多开源项目 https://undsky.com/](https://undsky.com/)
+
 ## License
 
 [MIT](LICENSE)
