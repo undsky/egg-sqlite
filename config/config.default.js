@@ -2,13 +2,28 @@
  * @Author: 姜彦汐
  * @Date: 2021-04-21 16:24:04
  * @LastEditors: 姜彦汐
- * @LastEditTime: 2021-08-20 16:09:22
+ * @LastEditTime: 2022-01-06 13:29:14
  * @Description: 
- * Contact: jiangyanxi@live.com
+ * @Site: https://www.undsky.com
  */
 module.exports = appInfo => ({
     sqlite: {
-        path: ':memory:',
-        options: null
+        default: {
+            path: ':memory:',
+            options: null
+        },
+        // Single
+        // client: {
+
+        // },
+        // Multi
+        // clients: {
+        //     mysql1: {
+
+        //     },
+        //     mysql2: {
+
+        //     }
+        // }
     }
 });

@@ -36,14 +36,47 @@ exports.sqlite = {
 ```js
 // {app_root}/config/config.default.js
 config.sqlite = {
-      path: ':memory:',
-      options: null
+    default: {
+        path: ':memory:',
+        options: null
+    },
+    // 单实例
+    client: {
+        path: ':memory:',
+        options: null    
+    },
+    // 多实例
+    clients: {
+       db1: {
+          path: ':memory:',
+          options: null   
+       },
+    }
 };
 ```
 
 ## 示例
 
-## [点击查看更多开源项目 https://undsky.com/](https://undsky.com/)
+```js
+const db1 = app.sqlite.get('db1');
+// 获取数据库连接对象
+const connection = db1.connection;
+// 运行 SQL
+await db1.run(sql);
+// 单条查询
+await db1.select(sql);
+// 多条查询
+await db1.selects(sql);
+// 插入
+await db1.insert(sql);
+// 更新
+await db1.update(sql);
+// 删除
+await db1.del(sql);
+// 简单事务
+await db1.transaction([sql1,sql2,sql2]);
+```
+## [查看更多项目](https://www.undsky.com)
 
 ## License
 
