@@ -1,7 +1,7 @@
 {
   "name": "egg-database-sqlite",
   "version": "1.0.0",
-  "description": "egg plugin for sqlite",
+  "description": "Egg plugin for sqlite",
   "eggPlugin": {
     "name": "sqlite"
   },
@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/undsky/egg-sqlite3.git"
+    "url": "git+https://github.com/undsky/egg-sqlite.git"
   },
   "bugs": {
-    "url": "https://github.com/undsky/egg-sqlite3/issues"
+    "url": "https://github.com/undsky/egg-sqlite/issues"
   },
-  "homepage": "https://github.com/undsky/egg-sqlite3#readme",
+  "homepage": "https://github.com/undsky/egg-sqlite#readme",
   "author": "姜彦汐 https://www.undsky.com",
   "license": "MIT"
 }

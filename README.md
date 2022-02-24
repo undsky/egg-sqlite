@@ -1,6 +1,8 @@
 # egg-sqlite
 
-> egg plugin for sqlite
+> Egg plugin for sqlite
+
+
 ## 安装
 
 ```bash
